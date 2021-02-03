@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+
+  
+    <title>JAVASCRIPT</title>
+    <script src="./java.js">
+    
+        
+    </script>
+
+ 
+</head>
+<body style="background-image: url(img/4.jpg); background-size: cover; background-repeat: no-repeat; height: 100vh !important;">
+<div class="bold">
+    <h1 style="font-family: 'Times New Roman', Times, serif; color:white ; text-align: center; margin-top: 200px;">CALCULATOR </h1>
+
+    <input type="number" id="amit" >
+    <input type="number" id="vikash">
+    
+    <div class="pri">
+        <div class="sir">
+            <button type="button" onclick="sum()">+ </button>
+        
+        <button style="margin-left: 50px;" type="button" onclick="subct()">-</button >
+        
+        </div>
+        
+        <div class="feb">
+            <button type="button" onclick="mult() ">*</button>
+            <button style="margin-left: 50px;" type="button" onclick="divid() ">/</button>
+            </div>
+    </div>
+    
+    
+</div>
+   
+
+
+
+<script>
+    function sum(){
+        number1= parseInt(document.getElementById("amit").value);
+        number2= parseInt(document.getElementById("vikash").value);
+       var  sum;
+       sum= number1+number2
+       alert(sum)
+
+    }
+
+    function subct(){
+        number1= parseInt(document.getElementById("amit").value);
+        number2= parseInt(document.getElementById("vikash").value);
+       var  subct;
+       subct= number1-number2
+      alert(subct)
+        
+    }
+
+
+    function mult(){
+        number1= parseInt(document.getElementById("amit").value);
+        number2= parseInt(document.getElementById("vikash").value);
+       var mult;
+       mult= number1*number2
+       alert(mult)
+
+    }
+
+
+    function divid(){
+        number1= parseInt(document.getElementById("amit").value);
+        number2= parseInt(document.getElementById("vikash").value);
+       var  divid;
+       divid= number1/number2
+       alert(divid)
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+    
+</body>
+</html>
